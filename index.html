@@ -7,15 +7,15 @@
 </head>
 <body>
   <h1>Form</h1>
-  <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
+  <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post" autocomplete="on">
     <fieldset>
       <legend>Personal Information</legend>
-      <div><label>Email Address: <input size="100" type="text" name="email_field"></label></div>
-      <div><label>Phone: <input size="100" type="text" name="phone_field"></label></div>
-      <div><label>Date of Birth: <input size="100" type="text" name="birth_field"></label></div>
+      <div><label>Email Address: <input type="email" name="email_field" placeholder="your_email@domain.com" required></label></div>
+      <div><label>Phone: <input  type="tel" name="phone_field" placeholder="312-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></label></div>
+      <div><label>Date of Birth: <input type="date" name="birth_field" required></label></div>
     </fieldset>
     <input type="hidden" name="hidden_field" value="amedina12">
-    <input type="submit">
+    <input type="submit" value="SUBMIT">
   </form>
 </body>
 </html>
