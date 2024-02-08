@@ -15,7 +15,7 @@ body {
   margin: 0 auto;
   background-color: rgb(246, 221, 190);
   color: rgb(28, 28, 28);
-  margin-top: 5px;
+  margin-top: 20px;
 }
 #header{
     margin-top: 10px;
@@ -30,6 +30,10 @@ legend{
   justify-content: center;
   margin-top: 30px;
 
+}
+
+.labels{
+    margin-top: 40px;
 }
 
 /* Media query for desktop */
