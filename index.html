@@ -8,16 +8,20 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>Form</h1>
+  <div id="header">
+    <h1>Form</h1>
+  </div>  
   <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post" autocomplete="on">
-    <fieldset>
-      <legend>Personal Information</legend>
-      <div><label>Email Address: <input type="email" name="email_field" placeholder="your_email@domain.com" required></label></div>
-      <div><label>Phone: <input  type="tel" name="phone_field" placeholder="312-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></label></div>
-      <div><label>Date of Birth: <input type="date" name="birth_field" required></label></div>
-    </fieldset>
-    <input type="hidden" name="hidden_field" value="amedina12">
-    <input type="submit" value="submit">
+    <div id="formfields">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <div><label>Email Address: <input type="email" size="30" name="email_field" placeholder="your_email@domain.com" required></label></div>
+        <div><label>Phone: <input  type="tel" name="phone_field" placeholder="###-###-####" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></label></div>
+        <div><label>Date of Birth: <input type="date" name="birth_field" required></label></div>
+      </fieldset>
+    </div>
+        <input type="hidden" name="hidden_field" value="amedina12">
+        <input type="submit" id="submit-button" value="Submit">
   </form>
 </body>
 </html>

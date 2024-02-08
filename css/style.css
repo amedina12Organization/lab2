@@ -1,0 +1,40 @@
+/* Base styles for mobile devices */
+h1 {
+    font-size: 1.667em;
+    text-align: center;
+    font-weight: bold;
+    color: #9f8f61;
+}
+body {
+  font-size: 1.2em;
+  background-color: #fff6e2;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#submit-button {
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(246, 221, 190);
+  color: rgb(28, 28, 28);
+  margin-top: 5px;
+}
+#header{
+    margin-top: 10px;
+}
+legend{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+#formfields{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+
+}
+
+/* Media query for desktop */
+@media screen and (min-width: 1024px) {
+  body {
+
+  }
+}
