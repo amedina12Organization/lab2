@@ -1,16 +1,18 @@
 /* Base styles for mobile devices */
 h1 {
-    font-size: 1.667em;
-    text-align: center;
-    font-weight: bold;
-    color: #9f8f61;
+  font-size: 1.667em;
+  text-align: center;
+  font-weight: bold;
+  color: #9f8f61;
 }
+
 body {
   font-size: 1.2em;
   background-color: #fff6e2;
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin: 0;
 }
+
 #submit-button {
   display: block;
   margin: 0 auto;
@@ -18,56 +20,52 @@ body {
   color: rgb(28, 28, 28);
   margin-top: 20px;
 }
+
 #header{
-    margin-top: 10px;
+  margin-top: 10px;
 }
+
 legend{
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 5px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5px;
 }
+
 #formfields{
   display: flex;
   justify-content: center;
   margin-top: 30px;
-
 }
 
 .labels label{
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Media query for desktop */
 @media screen and (min-width: 1024px) {
+  
+  h1{
+    font-size: 2.779em;
+    text-align: center;
+    font-weight: bold;
+  }
 
-    h1 {
-        font-size: 2.779em;
-        text-align: center;
-        font-weight: bold;
+  body{
+    font-size: 1.667em;
+    margin: 0;
+  }
 
-    }
-    body {
-        font-size: 1.667em;
-        background-color: #fff6e2;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        margin: 0;
-      }
-    .labels {
-      margin-top: 0; /* Reset margin-top */
-      margin-right: 20px; /* Add space between label-input pairs */
-    }
+  .labels{
+    margin-top: 0;
+    margin-right: 20px;
+  }
 
-    #submit-button {
-      margin-top: 30px; /* Increase margin-top for the submit button */
-      width: 200px; /* Set the width of the submit button */
-      height: 50px; /* Set the height of the submit button */
-      font-size: 1.667em; /* 
-    }
-
-    h1 {
-      font-size: 2em; /* Increase font size for headings */
-    }
+  #submit-button{
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    font-size: 1.667em;
+  }
 }
