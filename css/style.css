@@ -33,13 +33,41 @@ legend{
 
 }
 
-.labels{
+.labels label{
     margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+
 }
 
 /* Media query for desktop */
 @media screen and (min-width: 1024px) {
-  body {
 
-  }
+    h1 {
+        font-size: 2.779em;
+        text-align: center;
+        font-weight: bold;
+
+    }
+    body {
+        font-size: 1.667em;
+        background-color: #fff6e2;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 0;
+      }
+    .labels {
+      margin-top: 0; /* Reset margin-top */
+      margin-right: 20px; /* Add space between label-input pairs */
+    }
+
+    #submit-button {
+      margin-top: 30px; /* Increase margin-top for the submit button */
+      width: 200px; /* Set the width of the submit button */
+      height: 50px; /* Set the height of the submit button */
+      font-size: 1.667em; /* 
+    }
+
+    h1 {
+      font-size: 2em; /* Increase font size for headings */
+    }
 }
